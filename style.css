@@ -1,0 +1,79 @@
+/* ===== GENERAL STYLE ==== */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #24dc9b;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    background: skyblue;
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    border-radius: 8px;
+}
+
+/* ===== Header =====*/
+header {
+    background: #24dc9b;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+header img {
+    border-radius: 90%;
+    width: 200px;
+}
+
+/* ===== HEADINGS ===== */
+h2 {
+    color: #333;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+}
+
+/* ===== Skills =====*/
+.skills span{
+    background: #222;
+    color: white;
+    padding: 5px 10px;
+    margin: 5px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+/* ===== PROJECTS ===== */
+.projects {
+    background: #eee;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+/* ===== FORM ===== */
+form input {
+    width: 90%;
+    padding: 10px;
+    margin: 8px 0;
+}
+
+button {
+    padding: 10px 20px;
+    background: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: green;
+}
+
+/* ===== MAP ===== */
+iframe {
+    width: 100%;
+    height: 250px;
+    border: none;
+    margin-top: 10px;
+}
